@@ -64,7 +64,6 @@ extension HTTPRequestList {
         var userDefinedParameter2 = -100.0
         var userDefinedParameter3 = "stub"
         var locale = Locale.current.identifier
-        var calendarIdentifier = Calendar.current.identifier
         var userDefinedArray1:[String] = ["A", "B", "C"]
     
     }

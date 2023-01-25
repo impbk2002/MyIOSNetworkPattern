@@ -27,8 +27,8 @@ extension HTTPRequestList {
         var userDefinedParameter1 = 100
         var userDefinedParameter2 = -100.0
         var userDefinedParameter3 = "stub"
-        var locale = Locale.current.identifier
-        var calendarIdentifier = Calendar.current.identifier
+        var locale = Locale.current
+        var calendar = Calendar.current
         var userDefinedDictionary1:[String:String] = ["A":"B", "C":"D","ASDXC":"123485","Korean":"Seoul"]
         
     }

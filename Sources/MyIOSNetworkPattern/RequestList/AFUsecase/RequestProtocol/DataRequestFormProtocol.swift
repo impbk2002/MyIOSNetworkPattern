@@ -17,6 +17,8 @@ protocol DataRequestFormProtocol: RequestFormProtocol, Sendable {
 
 extension DataRequestFormProtocol {
     
+    var validation:DataRequest.Validation? { nil }
+    
     var encoder:ParameterEncoder {
         let formatter = DateFormatter()
         formatter.locale = .autoupdatingCurrent
